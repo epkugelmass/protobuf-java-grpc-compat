@@ -1,0 +1,13 @@
+$ ./gradlew build
+
+> Task :compileJava FAILED
+./src/main/java/org/example/Main.java:7: error: cannot access GeneratedMessageV3
+        HealthCheckRequest.newBuilder().build();
+                          ^
+  class file for com.google.protobuf.GeneratedMessageV3 not found
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
